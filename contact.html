@@ -41,25 +41,17 @@
        
         <div style="width: 70%; margin:5% auto;">
           
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Contact Me</h5>
-              <p class="card-text">
-               
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <a href="mailto:divyanshudob@gmail.com" class="btn btn-primary">Send</a>
+          <h2>Send e-mail to divyanshudob@gmail.com:</h2>
 
-              </p>
-            </div>
+        <form action="mailto:divyanshudob@gmail.com" method="post" enctype="text/plain">
+                       Name:<br><input type="text" name="name"><br>
+                       E-mail:<br><input type="text" name="mail"><br>
+                       Message:<br><input type="text" name="message" size="100"><br><br>
+                      <input type="submit" value="Send">
+                      <input type="reset" value="Reset">
+        </form> 
          
-
+      <br>
       
       <div style="width: 75%; margin: 0 auto;">
         <div class = "row">
